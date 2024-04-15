@@ -1,0 +1,24 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm run tsc && node dist/index.js",
+    "tsc": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "workspaces": [
+      "workspace-a",
+      "workspace-b"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.4.5"
+  }
+}
