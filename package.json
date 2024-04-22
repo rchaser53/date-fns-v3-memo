@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "npm run tsc && node dist/index.js",
+    "start": "npm run tsc && node dist/index.js",
     "tsc": "tsc -p ."
   },
   "keywords": [],
@@ -12,10 +12,7 @@
   "private": true,
   "license": "ISC",
   "dependencies": {
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.1",
     "date-fns": "^3.6.0",
-    "reflect-metadata": "^0.2.2",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
